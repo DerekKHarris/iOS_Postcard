@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+        //when button pressed
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         
         messageLabel.text = messageField.text
