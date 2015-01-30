@@ -13,6 +13,8 @@
 		655434221A78A74600437448 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655434211A78A74600437448 /* Images.xcassets */; };
 		655434251A78A74600437448 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655434231A78A74600437448 /* LaunchScreen.xib */; };
 		655434311A78A74700437448 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655434301A78A74700437448 /* PostcardTests.swift */; };
+		6554343B1A78AD0700437448 /* Pebble Beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6554343A1A78AD0700437448 /* Pebble Beach.jpg */; };
+		6554343D1A78AD0D00437448 /* The Lodge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6554343C1A78AD0D00437448 /* The Lodge.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		6554342A1A78A74700437448 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6554342F1A78A74700437448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		655434301A78A74700437448 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		6554343A1A78AD0700437448 /* Pebble Beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pebble Beach.jpg"; sourceTree = "<group>"; };
+		6554343C1A78AD0D00437448 /* The Lodge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Lodge.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		655434181A78A74600437448 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6554343C1A78AD0D00437448 /* The Lodge.jpg */,
+				6554343A1A78AD0700437448 /* Pebble Beach.jpg */,
 				655434191A78A74600437448 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6554343B1A78AD0700437448 /* Pebble Beach.jpg in Resources */,
 				655434201A78A74600437448 /* Main.storyboard in Resources */,
 				655434251A78A74600437448 /* LaunchScreen.xib in Resources */,
+				6554343D1A78AD0D00437448 /* The Lodge.jpg in Resources */,
 				655434221A78A74600437448 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
