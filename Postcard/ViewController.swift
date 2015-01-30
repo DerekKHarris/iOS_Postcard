@@ -13,7 +13,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var messageField: UITextField!
     @IBOutlet weak var messageLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var sendButton: UIButton!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,9 +35,18 @@ class ViewController: UIViewController {
         messageLabel.hidden = false
         messageField.text = nil
         
+        nameLabel.text = "To: " + nameField.text
+        nameLabel.textColor = UIColor.blueColor()
+        nameField.text = nil
+        nameLabel.hidden = false
+        
         messageField.resignFirstResponder()
         
         sendButton.setTitle("Mail Sent", forState: UIControlState.Normal)
+        sendButton.userInteractionEnabled = false
+        
+        nameField.hidden = true
+        messageField.hidden = true
     }
 }
 
